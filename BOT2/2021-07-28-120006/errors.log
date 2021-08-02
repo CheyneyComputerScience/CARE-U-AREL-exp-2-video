@@ -1,0 +1,38 @@
+Calibration Data on the device is backed up at:
+/CARE-U/recordings/2021-07-28-120006/depthai_calib.json
+PyGattLib ERROR: connect error: Function not implemented (38)
+Traceback (most recent call last):
+  File "/CARE-U/python-host/switchbot_py3_AREL.py", line 242, in <module>
+    main()
+  File "/CARE-U/python-host/switchbot_py3_AREL.py", line 237, in main
+    driver.run_command(opts.command)
+  File "/CARE-U/python-host/switchbot_py3_AREL.py", line 184, in run_command
+    with connect(self.device, self.bt_interface, self.timeout_secs) as req:
+  File "/usr/lib/python3.8/contextlib.py", line 113, in __enter__
+    return next(self.gen)
+  File "/CARE-U/python-host/switchbot_py3_AREL.py", line 50, in connect
+    raise ConnectionError('Connection to {} timed out after {} seconds'.
+ConnectionError: Connection to F1:74:F9:F8:A9:48 timed out after 5 seconds
+Will loop for 70 seconds
+To view the encoded data, convert the stream file (.h264/.h265) into a video file (.mp4), using commands below:
+ffmpeg -framerate 15 -i mono1.h264 -c copy mono1.mp4
+ffmpeg -framerate 15 -i mono2.h264 -c copy mono2.mp4
+ffmpeg -framerate 15 -i color.h265 -c copy color.mp4
+PyGattLib ERROR: connect error: Function not implemented (38)
+Traceback (most recent call last):
+  File "/CARE-U/python-host/switchbot_py3_AREL.py", line 242, in <module>
+    main()
+  File "/CARE-U/python-host/switchbot_py3_AREL.py", line 237, in main
+    driver.run_command(opts.command)
+  File "/CARE-U/python-host/switchbot_py3_AREL.py", line 184, in run_command
+    with connect(self.device, self.bt_interface, self.timeout_secs) as req:
+  File "/usr/lib/python3.8/contextlib.py", line 113, in __enter__
+    return next(self.gen)
+  File "/CARE-U/python-host/switchbot_py3_AREL.py", line 50, in connect
+    raise ConnectionError('Connection to {} timed out after {} seconds'.
+ConnectionError: Connection to F1:74:F9:F8:A9:48 timed out after 5 seconds
+Will loop for 70 seconds
+To view the encoded data, convert the stream file (.h264/.h265) into a video file (.mp4), using commands below:
+ffmpeg -framerate 15 -i mono1.h264 -c copy mono1.mp4
+ffmpeg -framerate 15 -i mono2.h264 -c copy mono2.mp4
+ffmpeg -framerate 15 -i color.h265 -c copy color.mp4
