@@ -1,5 +1,5 @@
 # CARE-U-AREL-exp-2-video
-This holds the raw video for experiment to of the AREL OAK-D challenge experiment 2
+This holds the raw video for experiment 2 of the AREL OAK-D challenge 
 
 
 !["Creative Commons License BY SA"](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)  
