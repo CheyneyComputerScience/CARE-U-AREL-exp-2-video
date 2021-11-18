@@ -1,0 +1,14 @@
+Calibration Data on the device is backed up at:
+/CARE-U/recordings/2021-08-09-120006/depthai_calib.json
+Connected!
+Command execution successful
+Traceback (most recent call last):
+  File "/CARE-U/depthai-python/examples/encoding_max_limit-AREL.py", line 68, in <module>
+    with dai.Device(pipeline) as dev:
+ValueError: Device already closed or disconnected
+Connected!
+Command execution successful
+Traceback (most recent call last):
+  File "/CARE-U/depthai-python/examples/encoding_max_limit-AREL.py", line 68, in <module>
+    with dai.Device(pipeline) as dev:
+ValueError: Device already closed or disconnected
